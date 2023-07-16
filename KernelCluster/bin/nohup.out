@@ -1,0 +1,2930 @@
+Directory path: /media/disk1/SYSU/project/bin/KernelCluster_pipeline_github/test//location
+Running: Rscript /media/disk1/SYSU/project/bin/KernelCluster_pipeline_github/bin//02.convolutional_kernel_IDW.R DLFPC 151673 /media/disk1/SYSU/project/bin/KernelCluster_pipeline_github/test//output/simulation/downsample_0.1/
+Running: Rscript /media/disk1/SYSU/project/bin/KernelCluster_pipeline_github/bin//02.convolutional_kernel_IDW.R DLFPC 151673 /media/disk1/SYSU/project/bin/KernelCluster_pipeline_github/test//output/simulation/downsample_0.2/
+Running: Rscript /media/disk1/SYSU/project/bin/KernelCluster_pipeline_github/bin//02.convolutional_kernel_IDW.R DLFPC 151673 /media/disk1/SYSU/project/bin/KernelCluster_pipeline_github/test//output/simulation/downsample_0.3/
+Running: Rscript /media/disk1/SYSU/project/bin/KernelCluster_pipeline_github/bin//02.convolutional_kernel_IDW.R DLFPC 151673 /media/disk1/SYSU/project/bin/KernelCluster_pipeline_github/test//output/simulation/downsample_0.4/
+Running: Rscript /media/disk1/SYSU/project/bin/KernelCluster_pipeline_github/bin//02.convolutional_kernel_IDW.R DLFPC 151673 /media/disk1/SYSU/project/bin/KernelCluster_pipeline_github/test//output/simulation/downsample_0.5/
+Running: Rscript /media/disk1/SYSU/project/bin/KernelCluster_pipeline_github/bin//02.convolutional_kernel_IDW.R DLFPC 151673 /media/disk1/SYSU/project/bin/KernelCluster_pipeline_github/test//output/simulation/downsample_0.6/
+Running: Rscript /media/disk1/SYSU/project/bin/KernelCluster_pipeline_github/bin//02.convolutional_kernel_IDW.R DLFPC 151673 /media/disk1/SYSU/project/bin/KernelCluster_pipeline_github/test//output/simulation/downsample_0.7/
+Running: Rscript /media/disk1/SYSU/project/bin/KernelCluster_pipeline_github/bin//02.convolutional_kernel_IDW.R DLFPC 151673 /media/disk1/SYSU/project/bin/KernelCluster_pipeline_github/test//output/simulation/downsample_0.8/
+Running: Rscript /media/disk1/SYSU/project/bin/KernelCluster_pipeline_github/bin//02.convolutional_kernel_IDW.R DLFPC 151673 /media/disk1/SYSU/project/bin/KernelCluster_pipeline_github/test//output/simulation/downsample_0.9/
+Runing clustering for simulation data
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+There were 50 or more warnings (use warnings() to see the first 50)
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+[1] 2
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.0.9"
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.1"
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.0.8"
+There were 50 or more warnings (use warnings() to see the first 50)
+Attaching SeuratObject
+Attaching sp
+Loading required package: SingleCellExperiment
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: GenomicRanges
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:sp’:
+
+    %over%
+
+Loading required package: GenomeInfoDb
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+
+Attaching package: ‘SummarizedExperiment’
+
+The following object is masked from ‘package:SeuratObject’:
+
+    Assays
+
+The following object is masked from ‘package:Seurat’:
+
+    Assays
+
+Loading required package: scuttle
+Loading required package: ggplot2
+qc_lib_size qc_detected     qc_mito 
+          8           7          17 
+< table of extent 0 >
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+0.04576 0.63035 0.89770 1.00000 1.29000 3.79953 
+[1] "counts"    "logcounts"
+[1] 1420
+[1] "PCA"
+[1] 3639   50
+Found more than one class "dist" in cache; using the first, from namespace 'BiocGenerics'
+Also defined by ‘spam’
+Found more than one class "dist" in cache; using the first, from namespace 'BiocGenerics'
+Also defined by ‘spam’
+[1] "PCA"  "UMAP"
+[1] 3639    2
+SpatialLIBD_clus
+  1   2   3   4   5   6   7 
+330 446 855 878 730 261 139 
+spatialPreprocess          package:BayesSpace          R Documentation
+
+_P_r_e_p_r_o_c_e_s_s _a _s_p_a_t_i_a_l _d_a_t_a_s_e_t _f_o_r _B_a_y_e_s_S_p_a_c_e
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     Adds metadata required for downstream analyses, and (optionally)
+     performs PCA on log-normalized expression of top HVGs.
+
+_U_s_a_g_e:
+
+     spatialPreprocess(
+       sce,
+       platform = c("Visium", "ST"),
+       n.PCs = 15,
+       n.HVGs = 2000,
+       skip.PCA = FALSE,
+       log.normalize = TRUE,
+       assay.type = "logcounts",
+       BSPARAM = ExactParam()
+     )
+     
+_A_r_g_u_m_e_n_t_s:
+
+     sce: SingleCellExperiment to preprocess
+
+platform: Spatial sequencing platform. Used to determine spot layout
+          and neighborhood structure (Visium = hex, ST = square).
+
+   n.PCs: Number of principal components to compute. We suggest using
+          the top 15 PCs in most cases.
+
+  n.HVGs: Number of highly variable genes to run PCA upon.
+
+skip.PCA: Skip PCA (if dimensionality reduction was previously
+          computed.)
+
+log.normalize: Whether to log-normalize the input data with scater. May
+          be omitted if log-normalization previously computed.
+
+assay.type: Name of assay in ‘sce’ containing normalized counts. Leave
+          as "logcounts" unless you explicitly pre-computed a different
+          normalization and added it to ‘sce’ under another assay. Note
+          that we do not recommend running BayesSpace on PCs computed
+          from raw counts.
+
+ BSPARAM: A BiocSingularParam object specifying which algorithm should
+          be used to perform the PCA. By default, an exact PCA is
+          performed, as current spatial datasets are generally small
+          (<10,000 spots). To perform a faster approximate PCA, please
+          specify ‘FastAutoParam()’ and set a random seed to ensure
+          reproducibility.
+
+_V_a_l_u_e:
+
+     SingleCellExperiment with PCA and BayesSpace metadata
+
+_E_x_a_m_p_l_e_s:
+
+     sce <- exampleSCE()
+     sce <- spatialPreprocess(sce)
+     
+
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Calculating labels using iterations 100 through 10000.
+Runing clustering for simulation data
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.8"
+There were 50 or more warnings (use warnings() to see the first 50)
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+[1] 2
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.0.9"
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.1"
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.0.8"
+There were 50 or more warnings (use warnings() to see the first 50)
+Attaching SeuratObject
+Attaching sp
+Loading required package: SingleCellExperiment
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: GenomicRanges
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:sp’:
+
+    %over%
+
+Loading required package: GenomeInfoDb
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+
+Attaching package: ‘SummarizedExperiment’
+
+The following object is masked from ‘package:SeuratObject’:
+
+    Assays
+
+The following object is masked from ‘package:Seurat’:
+
+    Assays
+
+Loading required package: scuttle
+Loading required package: ggplot2
+qc_lib_size qc_detected     qc_mito 
+          8           7          17 
+< table of extent 0 >
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+0.04576 0.63035 0.89770 1.00000 1.29000 3.79953 
+[1] "counts"    "logcounts"
+[1] 1420
+[1] "PCA"
+[1] 3639   50
+Found more than one class "dist" in cache; using the first, from namespace 'BiocGenerics'
+Also defined by ‘spam’
+Found more than one class "dist" in cache; using the first, from namespace 'BiocGenerics'
+Also defined by ‘spam’
+[1] "PCA"  "UMAP"
+[1] 3639    2
+SpatialLIBD_clus
+  1   2   3   4   5   6   7 
+330 446 855 878 730 261 139 
+spatialPreprocess          package:BayesSpace          R Documentation
+
+_P_r_e_p_r_o_c_e_s_s _a _s_p_a_t_i_a_l _d_a_t_a_s_e_t _f_o_r _B_a_y_e_s_S_p_a_c_e
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     Adds metadata required for downstream analyses, and (optionally)
+     performs PCA on log-normalized expression of top HVGs.
+
+_U_s_a_g_e:
+
+     spatialPreprocess(
+       sce,
+       platform = c("Visium", "ST"),
+       n.PCs = 15,
+       n.HVGs = 2000,
+       skip.PCA = FALSE,
+       log.normalize = TRUE,
+       assay.type = "logcounts",
+       BSPARAM = ExactParam()
+     )
+     
+_A_r_g_u_m_e_n_t_s:
+
+     sce: SingleCellExperiment to preprocess
+
+platform: Spatial sequencing platform. Used to determine spot layout
+          and neighborhood structure (Visium = hex, ST = square).
+
+   n.PCs: Number of principal components to compute. We suggest using
+          the top 15 PCs in most cases.
+
+  n.HVGs: Number of highly variable genes to run PCA upon.
+
+skip.PCA: Skip PCA (if dimensionality reduction was previously
+          computed.)
+
+log.normalize: Whether to log-normalize the input data with scater. May
+          be omitted if log-normalization previously computed.
+
+assay.type: Name of assay in ‘sce’ containing normalized counts. Leave
+          as "logcounts" unless you explicitly pre-computed a different
+          normalization and added it to ‘sce’ under another assay. Note
+          that we do not recommend running BayesSpace on PCs computed
+          from raw counts.
+
+ BSPARAM: A BiocSingularParam object specifying which algorithm should
+          be used to perform the PCA. By default, an exact PCA is
+          performed, as current spatial datasets are generally small
+          (<10,000 spots). To perform a faster approximate PCA, please
+          specify ‘FastAutoParam()’ and set a random seed to ensure
+          reproducibility.
+
+_V_a_l_u_e:
+
+     SingleCellExperiment with PCA and BayesSpace metadata
+
+_E_x_a_m_p_l_e_s:
+
+     sce <- exampleSCE()
+     sce <- spatialPreprocess(sce)
+     
+
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Calculating labels using iterations 100 through 10000.
+Runing clustering for simulation data
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+There were 50 or more warnings (use warnings() to see the first 50)
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+[1] 2
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.0.9"
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.1"
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.0.8"
+There were 50 or more warnings (use warnings() to see the first 50)
+Attaching SeuratObject
+Attaching sp
+Loading required package: SingleCellExperiment
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: GenomicRanges
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:sp’:
+
+    %over%
+
+Loading required package: GenomeInfoDb
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+
+Attaching package: ‘SummarizedExperiment’
+
+The following object is masked from ‘package:SeuratObject’:
+
+    Assays
+
+The following object is masked from ‘package:Seurat’:
+
+    Assays
+
+Loading required package: scuttle
+Loading required package: ggplot2
+qc_lib_size qc_detected     qc_mito 
+          8           7          17 
+< table of extent 0 >
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+0.04576 0.63035 0.89770 1.00000 1.29000 3.79953 
+[1] "counts"    "logcounts"
+[1] 1420
+[1] "PCA"
+[1] 3639   50
+Found more than one class "dist" in cache; using the first, from namespace 'BiocGenerics'
+Also defined by ‘spam’
+Found more than one class "dist" in cache; using the first, from namespace 'BiocGenerics'
+Also defined by ‘spam’
+[1] "PCA"  "UMAP"
+[1] 3639    2
+SpatialLIBD_clus
+  1   2   3   4   5   6   7 
+330 446 855 878 730 261 139 
+spatialPreprocess          package:BayesSpace          R Documentation
+
+_P_r_e_p_r_o_c_e_s_s _a _s_p_a_t_i_a_l _d_a_t_a_s_e_t _f_o_r _B_a_y_e_s_S_p_a_c_e
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     Adds metadata required for downstream analyses, and (optionally)
+     performs PCA on log-normalized expression of top HVGs.
+
+_U_s_a_g_e:
+
+     spatialPreprocess(
+       sce,
+       platform = c("Visium", "ST"),
+       n.PCs = 15,
+       n.HVGs = 2000,
+       skip.PCA = FALSE,
+       log.normalize = TRUE,
+       assay.type = "logcounts",
+       BSPARAM = ExactParam()
+     )
+     
+_A_r_g_u_m_e_n_t_s:
+
+     sce: SingleCellExperiment to preprocess
+
+platform: Spatial sequencing platform. Used to determine spot layout
+          and neighborhood structure (Visium = hex, ST = square).
+
+   n.PCs: Number of principal components to compute. We suggest using
+          the top 15 PCs in most cases.
+
+  n.HVGs: Number of highly variable genes to run PCA upon.
+
+skip.PCA: Skip PCA (if dimensionality reduction was previously
+          computed.)
+
+log.normalize: Whether to log-normalize the input data with scater. May
+          be omitted if log-normalization previously computed.
+
+assay.type: Name of assay in ‘sce’ containing normalized counts. Leave
+          as "logcounts" unless you explicitly pre-computed a different
+          normalization and added it to ‘sce’ under another assay. Note
+          that we do not recommend running BayesSpace on PCs computed
+          from raw counts.
+
+ BSPARAM: A BiocSingularParam object specifying which algorithm should
+          be used to perform the PCA. By default, an exact PCA is
+          performed, as current spatial datasets are generally small
+          (<10,000 spots). To perform a faster approximate PCA, please
+          specify ‘FastAutoParam()’ and set a random seed to ensure
+          reproducibility.
+
+_V_a_l_u_e:
+
+     SingleCellExperiment with PCA and BayesSpace metadata
+
+_E_x_a_m_p_l_e_s:
+
+     sce <- exampleSCE()
+     sce <- spatialPreprocess(sce)
+     
+
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Calculating labels using iterations 100 through 10000.
+Runing clustering for simulation data
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+There were 50 or more warnings (use warnings() to see the first 50)
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+[1] 2
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.0.9"
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.1"
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.0.8"
+There were 50 or more warnings (use warnings() to see the first 50)
+Attaching SeuratObject
+Attaching sp
+Loading required package: SingleCellExperiment
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: GenomicRanges
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:sp’:
+
+    %over%
+
+Loading required package: GenomeInfoDb
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+
+Attaching package: ‘SummarizedExperiment’
+
+The following object is masked from ‘package:SeuratObject’:
+
+    Assays
+
+The following object is masked from ‘package:Seurat’:
+
+    Assays
+
+Loading required package: scuttle
+Loading required package: ggplot2
+qc_lib_size qc_detected     qc_mito 
+          8           7          17 
+< table of extent 0 >
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+0.04576 0.63035 0.89770 1.00000 1.29000 3.79953 
+[1] "counts"    "logcounts"
+[1] 1420
+[1] "PCA"
+[1] 3639   50
+Found more than one class "dist" in cache; using the first, from namespace 'BiocGenerics'
+Also defined by ‘spam’
+Found more than one class "dist" in cache; using the first, from namespace 'BiocGenerics'
+Also defined by ‘spam’
+[1] "PCA"  "UMAP"
+[1] 3639    2
+SpatialLIBD_clus
+  1   2   3   4   5   6   7 
+330 446 855 878 730 261 139 
+spatialPreprocess          package:BayesSpace          R Documentation
+
+_P_r_e_p_r_o_c_e_s_s _a _s_p_a_t_i_a_l _d_a_t_a_s_e_t _f_o_r _B_a_y_e_s_S_p_a_c_e
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     Adds metadata required for downstream analyses, and (optionally)
+     performs PCA on log-normalized expression of top HVGs.
+
+_U_s_a_g_e:
+
+     spatialPreprocess(
+       sce,
+       platform = c("Visium", "ST"),
+       n.PCs = 15,
+       n.HVGs = 2000,
+       skip.PCA = FALSE,
+       log.normalize = TRUE,
+       assay.type = "logcounts",
+       BSPARAM = ExactParam()
+     )
+     
+_A_r_g_u_m_e_n_t_s:
+
+     sce: SingleCellExperiment to preprocess
+
+platform: Spatial sequencing platform. Used to determine spot layout
+          and neighborhood structure (Visium = hex, ST = square).
+
+   n.PCs: Number of principal components to compute. We suggest using
+          the top 15 PCs in most cases.
+
+  n.HVGs: Number of highly variable genes to run PCA upon.
+
+skip.PCA: Skip PCA (if dimensionality reduction was previously
+          computed.)
+
+log.normalize: Whether to log-normalize the input data with scater. May
+          be omitted if log-normalization previously computed.
+
+assay.type: Name of assay in ‘sce’ containing normalized counts. Leave
+          as "logcounts" unless you explicitly pre-computed a different
+          normalization and added it to ‘sce’ under another assay. Note
+          that we do not recommend running BayesSpace on PCs computed
+          from raw counts.
+
+ BSPARAM: A BiocSingularParam object specifying which algorithm should
+          be used to perform the PCA. By default, an exact PCA is
+          performed, as current spatial datasets are generally small
+          (<10,000 spots). To perform a faster approximate PCA, please
+          specify ‘FastAutoParam()’ and set a random seed to ensure
+          reproducibility.
+
+_V_a_l_u_e:
+
+     SingleCellExperiment with PCA and BayesSpace metadata
+
+_E_x_a_m_p_l_e_s:
+
+     sce <- exampleSCE()
+     sce <- spatialPreprocess(sce)
+     
+
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Calculating labels using iterations 100 through 10000.
+Runing clustering for simulation data
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+There were 50 or more warnings (use warnings() to see the first 50)
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+[1] 2
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.0.9"
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.1"
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.0.8"
+There were 50 or more warnings (use warnings() to see the first 50)
+Attaching SeuratObject
+Attaching sp
+Loading required package: SingleCellExperiment
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: GenomicRanges
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:sp’:
+
+    %over%
+
+Loading required package: GenomeInfoDb
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+
+Attaching package: ‘SummarizedExperiment’
+
+The following object is masked from ‘package:SeuratObject’:
+
+    Assays
+
+The following object is masked from ‘package:Seurat’:
+
+    Assays
+
+Loading required package: scuttle
+Loading required package: ggplot2
+qc_lib_size qc_detected     qc_mito 
+          8           7          17 
+< table of extent 0 >
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+0.04576 0.63035 0.89770 1.00000 1.29000 3.79953 
+[1] "counts"    "logcounts"
+[1] 1420
+[1] "PCA"
+[1] 3639   50
+Found more than one class "dist" in cache; using the first, from namespace 'BiocGenerics'
+Also defined by ‘spam’
+Found more than one class "dist" in cache; using the first, from namespace 'BiocGenerics'
+Also defined by ‘spam’
+[1] "PCA"  "UMAP"
+[1] 3639    2
+SpatialLIBD_clus
+  1   2   3   4   5   6   7 
+330 446 855 878 730 261 139 
+spatialPreprocess          package:BayesSpace          R Documentation
+
+_P_r_e_p_r_o_c_e_s_s _a _s_p_a_t_i_a_l _d_a_t_a_s_e_t _f_o_r _B_a_y_e_s_S_p_a_c_e
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     Adds metadata required for downstream analyses, and (optionally)
+     performs PCA on log-normalized expression of top HVGs.
+
+_U_s_a_g_e:
+
+     spatialPreprocess(
+       sce,
+       platform = c("Visium", "ST"),
+       n.PCs = 15,
+       n.HVGs = 2000,
+       skip.PCA = FALSE,
+       log.normalize = TRUE,
+       assay.type = "logcounts",
+       BSPARAM = ExactParam()
+     )
+     
+_A_r_g_u_m_e_n_t_s:
+
+     sce: SingleCellExperiment to preprocess
+
+platform: Spatial sequencing platform. Used to determine spot layout
+          and neighborhood structure (Visium = hex, ST = square).
+
+   n.PCs: Number of principal components to compute. We suggest using
+          the top 15 PCs in most cases.
+
+  n.HVGs: Number of highly variable genes to run PCA upon.
+
+skip.PCA: Skip PCA (if dimensionality reduction was previously
+          computed.)
+
+log.normalize: Whether to log-normalize the input data with scater. May
+          be omitted if log-normalization previously computed.
+
+assay.type: Name of assay in ‘sce’ containing normalized counts. Leave
+          as "logcounts" unless you explicitly pre-computed a different
+          normalization and added it to ‘sce’ under another assay. Note
+          that we do not recommend running BayesSpace on PCs computed
+          from raw counts.
+
+ BSPARAM: A BiocSingularParam object specifying which algorithm should
+          be used to perform the PCA. By default, an exact PCA is
+          performed, as current spatial datasets are generally small
+          (<10,000 spots). To perform a faster approximate PCA, please
+          specify ‘FastAutoParam()’ and set a random seed to ensure
+          reproducibility.
+
+_V_a_l_u_e:
+
+     SingleCellExperiment with PCA and BayesSpace metadata
+
+_E_x_a_m_p_l_e_s:
+
+     sce <- exampleSCE()
+     sce <- spatialPreprocess(sce)
+     
+
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Calculating labels using iterations 100 through 10000.
+Runing clustering for simulation data
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.6"
+There were 50 or more warnings (use warnings() to see the first 50)
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+[1] 2
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.0.9"
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.1"
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.0.8"
+There were 50 or more warnings (use warnings() to see the first 50)
+Attaching SeuratObject
+Attaching sp
+Loading required package: SingleCellExperiment
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: GenomicRanges
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:sp’:
+
+    %over%
+
+Loading required package: GenomeInfoDb
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+
+Attaching package: ‘SummarizedExperiment’
+
+The following object is masked from ‘package:SeuratObject’:
+
+    Assays
+
+The following object is masked from ‘package:Seurat’:
+
+    Assays
+
+Loading required package: scuttle
+Loading required package: ggplot2
+qc_lib_size qc_detected     qc_mito 
+          8           7          17 
+< table of extent 0 >
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+0.04576 0.63035 0.89770 1.00000 1.29000 3.79953 
+[1] "counts"    "logcounts"
+[1] 1420
+[1] "PCA"
+[1] 3639   50
+Found more than one class "dist" in cache; using the first, from namespace 'BiocGenerics'
+Also defined by ‘spam’
+Found more than one class "dist" in cache; using the first, from namespace 'BiocGenerics'
+Also defined by ‘spam’
+[1] "PCA"  "UMAP"
+[1] 3639    2
+SpatialLIBD_clus
+  1   2   3   4   5   6   7 
+330 446 855 878 730 261 139 
+spatialPreprocess          package:BayesSpace          R Documentation
+
+_P_r_e_p_r_o_c_e_s_s _a _s_p_a_t_i_a_l _d_a_t_a_s_e_t _f_o_r _B_a_y_e_s_S_p_a_c_e
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     Adds metadata required for downstream analyses, and (optionally)
+     performs PCA on log-normalized expression of top HVGs.
+
+_U_s_a_g_e:
+
+     spatialPreprocess(
+       sce,
+       platform = c("Visium", "ST"),
+       n.PCs = 15,
+       n.HVGs = 2000,
+       skip.PCA = FALSE,
+       log.normalize = TRUE,
+       assay.type = "logcounts",
+       BSPARAM = ExactParam()
+     )
+     
+_A_r_g_u_m_e_n_t_s:
+
+     sce: SingleCellExperiment to preprocess
+
+platform: Spatial sequencing platform. Used to determine spot layout
+          and neighborhood structure (Visium = hex, ST = square).
+
+   n.PCs: Number of principal components to compute. We suggest using
+          the top 15 PCs in most cases.
+
+  n.HVGs: Number of highly variable genes to run PCA upon.
+
+skip.PCA: Skip PCA (if dimensionality reduction was previously
+          computed.)
+
+log.normalize: Whether to log-normalize the input data with scater. May
+          be omitted if log-normalization previously computed.
+
+assay.type: Name of assay in ‘sce’ containing normalized counts. Leave
+          as "logcounts" unless you explicitly pre-computed a different
+          normalization and added it to ‘sce’ under another assay. Note
+          that we do not recommend running BayesSpace on PCs computed
+          from raw counts.
+
+ BSPARAM: A BiocSingularParam object specifying which algorithm should
+          be used to perform the PCA. By default, an exact PCA is
+          performed, as current spatial datasets are generally small
+          (<10,000 spots). To perform a faster approximate PCA, please
+          specify ‘FastAutoParam()’ and set a random seed to ensure
+          reproducibility.
+
+_V_a_l_u_e:
+
+     SingleCellExperiment with PCA and BayesSpace metadata
+
+_E_x_a_m_p_l_e_s:
+
+     sce <- exampleSCE()
+     sce <- spatialPreprocess(sce)
+     
+
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Calculating labels using iterations 100 through 10000.
+Runing clustering for simulation data
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+There were 50 or more warnings (use warnings() to see the first 50)
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+[1] 2
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.0.9"
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.1"
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.0.8"
+There were 50 or more warnings (use warnings() to see the first 50)
+Attaching SeuratObject
+Attaching sp
+Loading required package: SingleCellExperiment
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: GenomicRanges
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:sp’:
+
+    %over%
+
+Loading required package: GenomeInfoDb
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+
+Attaching package: ‘SummarizedExperiment’
+
+The following object is masked from ‘package:SeuratObject’:
+
+    Assays
+
+The following object is masked from ‘package:Seurat’:
+
+    Assays
+
+Loading required package: scuttle
+Loading required package: ggplot2
+qc_lib_size qc_detected     qc_mito 
+          8           7          17 
+< table of extent 0 >
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+0.04576 0.63035 0.89770 1.00000 1.29000 3.79953 
+[1] "counts"    "logcounts"
+[1] 1420
+[1] "PCA"
+[1] 3639   50
+Found more than one class "dist" in cache; using the first, from namespace 'BiocGenerics'
+Also defined by ‘spam’
+Found more than one class "dist" in cache; using the first, from namespace 'BiocGenerics'
+Also defined by ‘spam’
+[1] "PCA"  "UMAP"
+[1] 3639    2
+SpatialLIBD_clus
+  1   2   3   4   5   6   7 
+330 446 855 878 730 261 139 
+spatialPreprocess          package:BayesSpace          R Documentation
+
+_P_r_e_p_r_o_c_e_s_s _a _s_p_a_t_i_a_l _d_a_t_a_s_e_t _f_o_r _B_a_y_e_s_S_p_a_c_e
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     Adds metadata required for downstream analyses, and (optionally)
+     performs PCA on log-normalized expression of top HVGs.
+
+_U_s_a_g_e:
+
+     spatialPreprocess(
+       sce,
+       platform = c("Visium", "ST"),
+       n.PCs = 15,
+       n.HVGs = 2000,
+       skip.PCA = FALSE,
+       log.normalize = TRUE,
+       assay.type = "logcounts",
+       BSPARAM = ExactParam()
+     )
+     
+_A_r_g_u_m_e_n_t_s:
+
+     sce: SingleCellExperiment to preprocess
+
+platform: Spatial sequencing platform. Used to determine spot layout
+          and neighborhood structure (Visium = hex, ST = square).
+
+   n.PCs: Number of principal components to compute. We suggest using
+          the top 15 PCs in most cases.
+
+  n.HVGs: Number of highly variable genes to run PCA upon.
+
+skip.PCA: Skip PCA (if dimensionality reduction was previously
+          computed.)
+
+log.normalize: Whether to log-normalize the input data with scater. May
+          be omitted if log-normalization previously computed.
+
+assay.type: Name of assay in ‘sce’ containing normalized counts. Leave
+          as "logcounts" unless you explicitly pre-computed a different
+          normalization and added it to ‘sce’ under another assay. Note
+          that we do not recommend running BayesSpace on PCs computed
+          from raw counts.
+
+ BSPARAM: A BiocSingularParam object specifying which algorithm should
+          be used to perform the PCA. By default, an exact PCA is
+          performed, as current spatial datasets are generally small
+          (<10,000 spots). To perform a faster approximate PCA, please
+          specify ‘FastAutoParam()’ and set a random seed to ensure
+          reproducibility.
+
+_V_a_l_u_e:
+
+     SingleCellExperiment with PCA and BayesSpace metadata
+
+_E_x_a_m_p_l_e_s:
+
+     sce <- exampleSCE()
+     sce <- spatialPreprocess(sce)
+     
+
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Calculating labels using iterations 100 through 10000.
+Runing clustering for simulation data
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.8"
+There were 50 or more warnings (use warnings() to see the first 50)
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+[1] 2
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.0.9"
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.1"
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.0.8"
+There were 50 or more warnings (use warnings() to see the first 50)
+Attaching SeuratObject
+Attaching sp
+Loading required package: SingleCellExperiment
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: GenomicRanges
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:sp’:
+
+    %over%
+
+Loading required package: GenomeInfoDb
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+
+Attaching package: ‘SummarizedExperiment’
+
+The following object is masked from ‘package:SeuratObject’:
+
+    Assays
+
+The following object is masked from ‘package:Seurat’:
+
+    Assays
+
+Loading required package: scuttle
+Loading required package: ggplot2
+qc_lib_size qc_detected     qc_mito 
+          8           7          17 
+< table of extent 0 >
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+0.04576 0.63035 0.89770 1.00000 1.29000 3.79953 
+[1] "counts"    "logcounts"
+[1] 1420
+[1] "PCA"
+[1] 3639   50
+Found more than one class "dist" in cache; using the first, from namespace 'BiocGenerics'
+Also defined by ‘spam’
+Found more than one class "dist" in cache; using the first, from namespace 'BiocGenerics'
+Also defined by ‘spam’
+[1] "PCA"  "UMAP"
+[1] 3639    2
+SpatialLIBD_clus
+  1   2   3   4   5   6   7 
+330 446 855 878 730 261 139 
+spatialPreprocess          package:BayesSpace          R Documentation
+
+_P_r_e_p_r_o_c_e_s_s _a _s_p_a_t_i_a_l _d_a_t_a_s_e_t _f_o_r _B_a_y_e_s_S_p_a_c_e
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     Adds metadata required for downstream analyses, and (optionally)
+     performs PCA on log-normalized expression of top HVGs.
+
+_U_s_a_g_e:
+
+     spatialPreprocess(
+       sce,
+       platform = c("Visium", "ST"),
+       n.PCs = 15,
+       n.HVGs = 2000,
+       skip.PCA = FALSE,
+       log.normalize = TRUE,
+       assay.type = "logcounts",
+       BSPARAM = ExactParam()
+     )
+     
+_A_r_g_u_m_e_n_t_s:
+
+     sce: SingleCellExperiment to preprocess
+
+platform: Spatial sequencing platform. Used to determine spot layout
+          and neighborhood structure (Visium = hex, ST = square).
+
+   n.PCs: Number of principal components to compute. We suggest using
+          the top 15 PCs in most cases.
+
+  n.HVGs: Number of highly variable genes to run PCA upon.
+
+skip.PCA: Skip PCA (if dimensionality reduction was previously
+          computed.)
+
+log.normalize: Whether to log-normalize the input data with scater. May
+          be omitted if log-normalization previously computed.
+
+assay.type: Name of assay in ‘sce’ containing normalized counts. Leave
+          as "logcounts" unless you explicitly pre-computed a different
+          normalization and added it to ‘sce’ under another assay. Note
+          that we do not recommend running BayesSpace on PCs computed
+          from raw counts.
+
+ BSPARAM: A BiocSingularParam object specifying which algorithm should
+          be used to perform the PCA. By default, an exact PCA is
+          performed, as current spatial datasets are generally small
+          (<10,000 spots). To perform a faster approximate PCA, please
+          specify ‘FastAutoParam()’ and set a random seed to ensure
+          reproducibility.
+
+_V_a_l_u_e:
+
+     SingleCellExperiment with PCA and BayesSpace metadata
+
+_E_x_a_m_p_l_e_s:
+
+     sce <- exampleSCE()
+     sce <- spatialPreprocess(sce)
+     
+
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Calculating labels using iterations 100 through 10000.
+Runing clustering for simulation data
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+There were 50 or more warnings (use warnings() to see the first 50)
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+[1] 2
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.0.9"
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.1"
+Computing nearest neighbor graph
+Computing SNN
+[1] "SCT_snn_res.0.8"
+There were 50 or more warnings (use warnings() to see the first 50)
+Attaching SeuratObject
+Attaching sp
+Loading required package: SingleCellExperiment
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: GenomicRanges
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:sp’:
+
+    %over%
+
+Loading required package: GenomeInfoDb
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+
+Attaching package: ‘SummarizedExperiment’
+
+The following object is masked from ‘package:SeuratObject’:
+
+    Assays
+
+The following object is masked from ‘package:Seurat’:
+
+    Assays
+
+Loading required package: scuttle
+Loading required package: ggplot2
+qc_lib_size qc_detected     qc_mito 
+          8           7          17 
+< table of extent 0 >
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+0.04576 0.63035 0.89770 1.00000 1.29000 3.79953 
+[1] "counts"    "logcounts"
+[1] 1420
+[1] "PCA"
+[1] 3639   50
+Found more than one class "dist" in cache; using the first, from namespace 'BiocGenerics'
+Also defined by ‘spam’
+Found more than one class "dist" in cache; using the first, from namespace 'BiocGenerics'
+Also defined by ‘spam’
+[1] "PCA"  "UMAP"
+[1] 3639    2
+SpatialLIBD_clus
+  1   2   3   4   5   6   7 
+330 446 855 878 730 261 139 
+spatialPreprocess          package:BayesSpace          R Documentation
+
+_P_r_e_p_r_o_c_e_s_s _a _s_p_a_t_i_a_l _d_a_t_a_s_e_t _f_o_r _B_a_y_e_s_S_p_a_c_e
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     Adds metadata required for downstream analyses, and (optionally)
+     performs PCA on log-normalized expression of top HVGs.
+
+_U_s_a_g_e:
+
+     spatialPreprocess(
+       sce,
+       platform = c("Visium", "ST"),
+       n.PCs = 15,
+       n.HVGs = 2000,
+       skip.PCA = FALSE,
+       log.normalize = TRUE,
+       assay.type = "logcounts",
+       BSPARAM = ExactParam()
+     )
+     
+_A_r_g_u_m_e_n_t_s:
+
+     sce: SingleCellExperiment to preprocess
+
+platform: Spatial sequencing platform. Used to determine spot layout
+          and neighborhood structure (Visium = hex, ST = square).
+
+   n.PCs: Number of principal components to compute. We suggest using
+          the top 15 PCs in most cases.
+
+  n.HVGs: Number of highly variable genes to run PCA upon.
+
+skip.PCA: Skip PCA (if dimensionality reduction was previously
+          computed.)
+
+log.normalize: Whether to log-normalize the input data with scater. May
+          be omitted if log-normalization previously computed.
+
+assay.type: Name of assay in ‘sce’ containing normalized counts. Leave
+          as "logcounts" unless you explicitly pre-computed a different
+          normalization and added it to ‘sce’ under another assay. Note
+          that we do not recommend running BayesSpace on PCs computed
+          from raw counts.
+
+ BSPARAM: A BiocSingularParam object specifying which algorithm should
+          be used to perform the PCA. By default, an exact PCA is
+          performed, as current spatial datasets are generally small
+          (<10,000 spots). To perform a faster approximate PCA, please
+          specify ‘FastAutoParam()’ and set a random seed to ensure
+          reproducibility.
+
+_V_a_l_u_e:
+
+     SingleCellExperiment with PCA and BayesSpace metadata
+
+_E_x_a_m_p_l_e_s:
+
+     sce <- exampleSCE()
+     sce <- spatialPreprocess(sce)
+     
+
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Fitting model...
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Calculating labels using iterations 100 through 10000.
+Attaching SeuratObject
+Attaching sp
+Loading required package: SingleCellExperiment
+Loading required package: SummarizedExperiment
+Loading required package: MatrixGenerics
+Loading required package: matrixStats
+
+Attaching package: ‘MatrixGenerics’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+Loading required package: GenomicRanges
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:sp’:
+
+    %over%
+
+Loading required package: GenomeInfoDb
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: ‘Biobase’
+
+The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+
+Attaching package: ‘SummarizedExperiment’
+
+The following object is masked from ‘package:SeuratObject’:
+
+    Assays
+
+The following object is masked from ‘package:Seurat’:
+
+    Assays
+
+Loading required package: scuttle
+Loading required package: ggplot2
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Calculating labels using iterations 100 through 10000.
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Calculating labels using iterations 100 through 10000.
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Calculating labels using iterations 100 through 10000.
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Calculating labels using iterations 100 through 10000.
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Calculating labels using iterations 100 through 10000.
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Calculating labels using iterations 100 through 10000.
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Calculating labels using iterations 100 through 10000.
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Calculating labels using iterations 100 through 10000.
+Neighbors were identified for 3638 out of 3639 spots.
+Fitting model...
+Calculating labels using iterations 100 through 10000.
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+[1] 3
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+[1] 3
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+[1] 3
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+[1] 3
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+Attaching SeuratObject
+Attaching sp
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+[1] 2
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+[1] 2
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+Attaching SeuratObject
+Attaching sp
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+[1] 3
+Computing nearest neighbor graph
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+[1] 2
+Computing SNN
+Computing nearest neighbor graph
+Computing SNN
+Computing nearest neighbor graph
+Computing nearest neighbor graph
+Computing SNN
+Computing SNN
+Computing nearest neighbor graph
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+Computing nearest neighbor graph
+Computing SNN
+Computing SNN
+Computing SNN
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+[1] "Spatial_snn_res.0.7"
+Computing nearest neighbor graph
+Computing SNN
+Computing SNN
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.7"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+[1] "Spatial_snn_res.0.5"
+Computing SNN
+Computing nearest neighbor graph
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+Computing SNN
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+Computing SNN
+Computing SNN
+[1] "Spatial_snn_res.0.8"
+[1] "Spatial_snn_res.0.5"
+[1] "Spatial_snn_res.0.6"
+[1] "Spatial_snn_res.0.6"
+[1] "Spatial_snn_res.0.5"
+[1] "Spatial_snn_res.0.5"
+[1] "Spatial_snn_res.0.6"
+[1] "Spatial_snn_res.0.6"
+There were 50 or more warnings (use warnings() to see the first 50)
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+[1] 2
+There were 50 or more warnings (use warnings() to see the first 50)
+Computing nearest neighbor graph
+Computing SNN
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+Computing SNN
+Computing nearest neighbor graph
+Computing SNN
+There were 50 or more warnings (use warnings() to see the first 50)
+[1] "Spatial_snn_res.1.1"
+Computing nearest neighbor graph
+Attaching SeuratObject
+Attaching sp
+There were 50 or more warnings (use warnings() to see the first 50)
+Computing SNN
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Computing nearest neighbor graph
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Computing SNN
+There were 50 or more warnings (use warnings() to see the first 50)
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+Computing nearest neighbor graph
+Computing SNN
+Attaching SeuratObject
+Attaching sp
+[1] "Spatial_snn_res.1.2"
+Computing nearest neighbor graph
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+There were 50 or more warnings (use warnings() to see the first 50)
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Computing SNN
+Attaching SeuratObject
+Attaching sp
+[1] "Spatial_snn_res.1.1"
+Computing nearest neighbor graph
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Computing nearest neighbor graph
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+Computing SNN
+Computing SNN
+Computing SNN
+There were 50 or more warnings (use warnings() to see the first 50)
+There were 50 or more warnings (use warnings() to see the first 50)
+Computing nearest neighbor graph
+Attaching SeuratObject
+Attaching sp
+Computing SNN
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Attaching SeuratObject
+Attaching sp
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Computing SNN
+Computing nearest neighbor graph
+[1] "Spatial_snn_res.0.9"
+Computing nearest neighbor graph
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+Computing SNN
+Computing SNN
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+Computing SNN
+Computing SNN
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+[1] "Spatial_snn_res.0.5"
+There were 50 or more warnings (use warnings() to see the first 50)
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+[1] "Spatial_snn_res.0.5"
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+There were 50 or more warnings (use warnings() to see the first 50)
+[1] "Spatial_snn_res.0.5"
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+There were 50 or more warnings (use warnings() to see the first 50)
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+There were 50 or more warnings (use warnings() to see the first 50)
+There were 50 or more warnings (use warnings() to see the first 50)
+There were 50 or more warnings (use warnings() to see the first 50)
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+Computing SNN
+There were 50 or more warnings (use warnings() to see the first 50)
+There were 50 or more warnings (use warnings() to see the first 50)
+[1] "Spatial_snn_res.0.5"
+[1] "Spatial_snn_res.0.5"
+There were 50 or more warnings (use warnings() to see the first 50)
+There were 50 or more warnings (use warnings() to see the first 50)
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+Attaching SeuratObject
+Attaching sp
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Attaching SeuratObject
+Attaching sp
+Computing nearest neighbor graph
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Attaching SeuratObject
+Attaching sp
+Computing SNN
+Computing nearest neighbor graph
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Attaching SeuratObject
+Attaching sp
+Computing SNN
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Attaching SeuratObject
+Attaching sp
+Computing nearest neighbor graph
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Computing SNN
+Computing nearest neighbor graph
+Computing SNN
+Computing nearest neighbor graph
+Computing SNN
+Computing nearest neighbor graph
+[1] "Spatial_snn_res.1.1"
+Computing nearest neighbor graph
+Computing SNN
+Computing SNN
+Computing nearest neighbor graph
+[1] "Spatial_snn_res.1.2"
+Computing nearest neighbor graph
+Computing SNN
+Computing nearest neighbor graph
+Computing SNN
+Computing SNN
+Computing nearest neighbor graph
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+Computing SNN
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+Computing SNN
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+Computing SNN
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.1.1"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.9"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+Computing SNN
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+Computing SNN
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+[1] "Spatial_snn_res.0.5"
+[1] "Spatial_snn_res.0.5"
+[1] "Spatial_snn_res.0.5"
+[1] "Spatial_snn_res.0.5"
+[1] "Spatial_snn_res.0.5"
+[1] "Spatial_snn_res.0.5"
+[1] "Spatial_snn_res.0.5"
+[1] "Spatial_snn_res.0.5"
+There were 50 or more warnings (use warnings() to see the first 50)
+There were 50 or more warnings (use warnings() to see the first 50)
+There were 50 or more warnings (use warnings() to see the first 50)
+There were 50 or more warnings (use warnings() to see the first 50)
+There were 50 or more warnings (use warnings() to see the first 50)
+There were 50 or more warnings (use warnings() to see the first 50)
+There were 50 or more warnings (use warnings() to see the first 50)
+There were 50 or more warnings (use warnings() to see the first 50)
+There were 50 or more warnings (use warnings() to see the first 50)
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+Attaching SeuratObject
+Attaching sp
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+Attaching SeuratObject
+Attaching sp
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Attaching SeuratObject
+Attaching sp
+Computing nearest neighbor graph
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Attaching SeuratObject
+Attaching sp
+Computing SNN
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+Computing nearest neighbor graph
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Attaching SeuratObject
+Attaching sp
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Computing SNN
+Attaching SeuratObject
+Attaching sp
+Computing nearest neighbor graph
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.2 ──
+✔ ggplot2 3.3.6     ✔ purrr   1.0.1
+✔ tibble  3.2.1     ✔ dplyr   1.1.2
+✔ tidyr   1.2.1     ✔ stringr 1.4.1
+✔ readr   2.1.2     ✔ forcats 0.5.2
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+Computing SNN
+Computing nearest neighbor graph
+Computing SNN
+Computing nearest neighbor graph
+Computing SNN
+Computing nearest neighbor graph
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+Computing SNN
+Computing nearest neighbor graph
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+Computing nearest neighbor graph
+Computing SNN
+Computing SNN
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.6"
+Computing nearest neighbor graph
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+Computing nearest neighbor graph
+Computing SNN
+[1] "Spatial_snn_res.0.5"
+[1] "Spatial_snn_res.0.8"
+[1] "Spatial_snn_res.0.5"
+[1] "Spatial_snn_res.0.5"
+[1] "Spatial_snn_res.0.6"
+[1] "Spatial_snn_res.0.5"
+[1] "Spatial_snn_res.0.8"
+[1] "Spatial_snn_res.0.5"
+[1] "Spatial_snn_res.0.5"
+There were 50 or more warnings (use warnings() to see the first 50)
+There were 50 or more warnings (use warnings() to see the first 50)
+There were 50 or more warnings (use warnings() to see the first 50)
+There were 50 or more warnings (use warnings() to see the first 50)
+There were 50 or more warnings (use warnings() to see the first 50)
+There were 50 or more warnings (use warnings() to see the first 50)
+There were 50 or more warnings (use warnings() to see the first 50)
+There were 50 or more warnings (use warnings() to see the first 50)
+There were 50 or more warnings (use warnings() to see the first 50)
