@@ -3,34 +3,26 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/jleechung/Banksy/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jleechung/Banksy/actions/workflows/R-CMD-check.yaml)
-[![codecov](https://codecov.io/gh/jleechung/Banksy/branch/main/graph/badge.svg?token=OZZK4EDVH9)](https://codecov.io/gh/jleechung/Banksy)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/jleechung/Banksy/graphs/commit-activity)
+[![R-CMD-check](https://github.com/yuelinbaby/Kernel_Cluster))
 <!-- badges: end -->
 
 ## Overview
 
-BANKSY is a method for clustering spatial transcriptomic data by
-augmenting the transcriptomic profile of each cell with an average of
-the transcriptomes of its spatial neighbors. By incorporating
-neighborhood information for clustering, BANKSY is able to
+KernelCluster utilizes convolution kernels to aggregate gene expression
+from adjacent spots, thereby increasing the robustness of clustering. 
+By incorporating neighborhood information for clustering, KernelCluster is able to
 
--   improve cell-type assignment in noisy data
--   distinguish subtly different cell-types stratified by
-    microenvironment
--   identify spatial zones sharing the same microenvironment
+-   decrease the sparsity of the expression matrix creaated in the spatial transcriptomics 
+-   improve the accuracy to infer the spatial domains in spatial transcriptomics datasets
+-   allows for the incorporation of various existing clustering
+algorithms
 
-BANKSY is applicable to a wide array of spatial technologies (e.g. 10x
-Visium, Slide-seq, MERFISH) and scales well to large datasets. For more
-details, check out:
+KernelCluster is applicable to spatial transcriptomics datasets based in situ sequencing (ISS) technology (e.g. 10x
+Visium) and scales well to large datasets. 
 
 -   the
     [preprint](https://www.biorxiv.org/content/10.1101/2022.04.14.488259v1),
--   a
-    [tweetorial](https://twitter.com/vipul1891/status/1515323372535644166?s=20&t=Bc6rz8VeWWptF67FejGYfQ)
-    on BANKSY,
--   and a [Python version](https://github.com/prabhakarlab/Banksy_py) of
-    this package.
+
 
 ## Installation
 
@@ -60,29 +52,17 @@ remotes::install_github("prabhakarlab/Banksy@feat-igraph-leiden")
 ## Documentation
 
 Detailed description of *Banksy* functionality and example analyses are
-available at the [package
-webpage](https://prabhakarlab.github.io/Banksy/).
+available at the [package webpage]().
 
-*Banksy* comes installed with
-[documentation](https://prabhakarlab.github.io/Banksy/reference/index.html)
-of main functions and their usage, along with several vignettes which
-detail different use cases:
-
--   [Working with Banksy
-    objects](https://prabhakarlab.github.io/Banksy/articles/banksy-object.html):
-    Introduction to the *BanksyObject* class which serves as a container
-    for *Banksy*.
-
--   [Mouse hippocampus VeraFISH
-    dataset](https://prabhakarlab.github.io/Banksy/articles/hippocampus-analysis.html):
+-   [DLPFC dataset: Human dorsolateral prefrontal cortex data](http://research.libd.org/spatial LIBD/)):
     Illustrates a grid search of parameters which best cluster cells.
-
+(1) DLPFC dataset: Human dorsolateral prefrontal cortex data (http://research.libd.org/spatial LIBD/) 
 -   [Human dorsolateral prefrontal cortex 10x Visium
-    dataset](https://prabhakarlab.github.io/Banksy/articles/dlpfc-analysis.html):
     Illustrates analysis of multiple spatial transcriptomic datasets.
-*Banksy* is also interoperable with
+    
+*KernelCluster* is also interoperable with
 [Seurat](https://satijalab.org/seurat/) via *SeuratWrappers*.
-Documentation on how to run BANKSY on Seurat objects can be found
-[here](https://github.com/satijalab/seurat-wrappers/blob/master/docs/banksy.md).
+Documentation on how to run KernelCluster on Seurat objects can be found
+[here](/banksy.md).
 
 
