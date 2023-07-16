@@ -42,4 +42,47 @@ remotes::install_github("prabhakarlab/Banksy", dependencies = TRUE)
 
 Installation should take less than three minutes.
 
+Installation should take less than three minutes.
+
+**Known installation issues**
+
+1.  Installation of `leidenAlg` has non-zero exit status
+
+-   Refer to the [package
+    website](https://github.com/kharchenkolab/leidenAlg#installation)
+    for *leidenAlg* installation details. Otherwise, users may also
+    install a separate branch of *Banksy* with
+
+``` r
+remotes::install_github("prabhakarlab/Banksy@feat-igraph-leiden")
+```
+
+## Documentation
+
+Detailed description of *Banksy* functionality and example analyses are
+available at the [package
+webpage](https://prabhakarlab.github.io/Banksy/).
+
+*Banksy* comes installed with
+[documentation](https://prabhakarlab.github.io/Banksy/reference/index.html)
+of main functions and their usage, along with several vignettes which
+detail different use cases:
+
+-   [Working with Banksy
+    objects](https://prabhakarlab.github.io/Banksy/articles/banksy-object.html):
+    Introduction to the *BanksyObject* class which serves as a container
+    for *Banksy*.
+
+-   [Mouse hippocampus VeraFISH
+    dataset](https://prabhakarlab.github.io/Banksy/articles/hippocampus-analysis.html):
+    Illustrates a grid search of parameters which best cluster cells.
+
+-   [Human dorsolateral prefrontal cortex 10x Visium
+    dataset](https://prabhakarlab.github.io/Banksy/articles/dlpfc-analysis.html):
+    Illustrates analysis of multiple spatial transcriptomic datasets.
+*Banksy* is also interoperable with
+[Seurat](https://satijalab.org/seurat/) via *SeuratWrappers*.
+Documentation on how to run BANKSY on Seurat objects can be found
+[here](https://github.com/satijalab/seurat-wrappers/blob/master/docs/banksy.md).
+
 
