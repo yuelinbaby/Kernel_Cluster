@@ -30,7 +30,7 @@ The KernelCluster [bash file](https://github.com/yuelinbaby/Kernel_Cluster/blob/
 
 ## Dependencies
 
-This software relies on the following packages:
+KernelCluster relies on the following packages:
 
 - [Seurat] R packages(v4.2.0)
 - [dplyr] R packages(v1.1.2)
@@ -43,6 +43,11 @@ This software relies on the following packages:
 To install the required packages, you can use:
 - for R packages: BiocManager::install('**')
 - for python packages: pip install **
+
+The spatial clustering packages listed below are optional in KernelCluster, serving solely for validating the performance of the method.
+- [BayesSpace] R packages(v1.6.0)
+- [spatialLIBD] R packages(v1.8.11)
+- [SpaGCN] Python packages(v1.2.5)
 
 ## Documentation
 
