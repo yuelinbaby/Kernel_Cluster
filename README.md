@@ -25,33 +25,12 @@ Visium) and scales well to large datasets.
 
 The KernelCluster package can be used by copying the bash file  and chmod the bash file as executable file
 
-The KernelCluster [bash file] ()
+The KernelCluster [bash file](https://github.com/yuelinbaby/Kernel_Cluster/blob/main/KernelKcluster.bash)
 
-``` r
-remotes::install_github("prabhakarlab/Banksy", dependencies = TRUE)
-```
-
-Installation should take less than three minutes.
-
-Installation should take less than three minutes.
-
-**Known installation issues**
-
-1.  Installation of `leidenAlg` has non-zero exit status
-
--   Refer to the [package
-    website](https://github.com/kharchenkolab/leidenAlg#installation)
-    for *leidenAlg* installation details. Otherwise, users may also
-    install a separate branch of *Banksy* with
-
-``` r
-remotes::install_github("prabhakarlab/Banksy@feat-igraph-leiden")
-```
 
 ## Documentation
 
-Detailed description of *Banksy* functionality and example analyses are
-available at the [package webpage]().
+datasets
 
 -   [DLPFC dataset: Human dorsolateral prefrontal cortex data](http://research.libd.org/spatial LIBD/)):
     Illustrates a grid search of parameters which best cluster cells.
