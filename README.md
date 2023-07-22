@@ -23,9 +23,16 @@ Visium) and scales well to large datasets.
 
 ## Installation
 
-The KernelCluster package can be used by copying the bash file  and chmod the bash file as executable file
+The KernelCluster package can be used by downloading the bash and script bin file.
+- The KernelCluster base file [bash file](https://github.com/yuelinbaby/Kernel_Cluster/blob/main/KernelKcluster.bash)
+- Scripts:[bin file](https://github.com/yuelinbaby/Kernel_Cluster/tree/master/KernelCluster) 
 
-The KernelCluster [bash file](https://github.com/yuelinbaby/Kernel_Cluster/blob/main/KernelKcluster.bash)
+## Running Instructions
+ ./KernelKcluster.bash  sample_dir/ bin_dir/ sample_id  project_id
+ - sample_dir: the directory of sample, with two subdirectory, "input" and "ouput". The "input subdirectory" store SRT raw data.
+ - bin_dir: the directory of KernelCluster
+ - sample_id: the sample or slice ID of SRT dataset
+ - project_id: the project id of SRT dataset
 
 
 ## Dependencies
