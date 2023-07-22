@@ -28,6 +28,22 @@ The KernelCluster package can be used by copying the bash file  and chmod the ba
 The KernelCluster [bash file](https://github.com/yuelinbaby/Kernel_Cluster/blob/main/KernelKcluster.bash)
 
 
+## Dependencies
+
+This software relies on the following packages:
+
+- [Seurat] R packages(v4.2.0)
+- [dplyr] R packages(v1.1.2)
+- [tidyverse] R packages(v1.3.2)
+- [cluster] R packages(v2.1.4)
+- [keras] Python packages(v2.12.0)
+- [numpy] Python packages(v1.22.4)
+- [pandas] Python packages(v1.4.3)
+
+To install the required packages, you can use:
+- for R packages: BiocManager::install('**')
+- for python packages: pip install **
+
 ## Documentation
 
 datasets
