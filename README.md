@@ -20,13 +20,12 @@ algorithms
 KernelCluster is applicable to spatial transcriptomics datasets based in situ sequencing (ISS) technology (e.g. 10x
 Visium) and scales well to large datasets. 
 
--   the
-    [preprint](https://www.biorxiv.org/content/10.1101/2022.04.14.488259v1),
-
 
 ## Installation
 
-The *Banksy* package can be installed via `remotes`:
+The KernelCluster package can be used by copying the bash file  and chmod the bash file as executable file
+
+The KernelCluster [bash file] ()
 
 ``` r
 remotes::install_github("prabhakarlab/Banksy", dependencies = TRUE)
